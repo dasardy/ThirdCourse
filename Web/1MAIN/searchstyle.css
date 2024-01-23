@@ -1,0 +1,9 @@
+body{
+    width: 700px;
+    margin: 0 auto;
+    font-family: Georgia, sans-serif;
+    background-color: antiquewhite;
+}
+.result{
+    padding-top: 20px;
+}

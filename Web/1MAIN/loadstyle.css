@@ -1,0 +1,21 @@
+body{
+    width: 700px;
+    margin: 0 auto;
+    font-family: Georgia, sans-serif;
+    background-color: antiquewhite;
+}
+
+.pages{
+    text-align: center;
+    font-size: 20px;
+    padding:10px; 
+}
+.highlight {
+    background-color: rgb(106, 117, 54);
+}
+.page_btns {
+    justify-items: space-between; /* Размещаем элементы по краям контейнера */
+}
+.back_to_start{
+    padding-bottom: 10px;
+}

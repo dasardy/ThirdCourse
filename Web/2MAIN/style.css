@@ -1,0 +1,94 @@
+.index_image{
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    text-align: center;
+    align-content: center;
+    background-color: rgba(56, 105, 240, 0.692);
+    margin: 0
+}
+.name_form{
+    width: 250px;
+    height: 35px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-width: 3px;
+    border-radius: 5px;
+    font-family: 'Arial Black';
+}
+.begin_btn{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: azure;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: black;
+    min-width: 150px;
+    min-height: 35px;
+    font-weight: bold;
+    font-size:17px;
+    margin: 5px;
+    font-family:Arial, sans-serif;
+}
+.name_app{
+    font-family: 'Arial Black';
+    font-weight: bold;
+    font-size:40px
+}
+.num_answer{
+    font-family: 'Arial Black';
+    font-weight: bold;
+    font-size:30px
+}
+.text_question{
+    font-family: 'Arial Black';
+    font-size:20px;
+    text-decoration: underline;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-align: center;
+    display: block;
+}
+.answers{
+    margin: 2px;
+    width: 20px;
+    height: 17px;
+}
+.answers_div
+{
+    font-family: 'Arial Black';
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.end_btn{
+    margin-top: 50px;
+}
+.a_btns{
+    margin: 20px;
+}
+canvas {
+    display: block;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.993);
+    border-radius: 5px;
+  }
+
+.congrat{
+    font-family: 'Arial Black';
+    font-size:20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.info{
+    font-family: 'Arial Black';
+    font-size:15px;
+}
+.diagram{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
