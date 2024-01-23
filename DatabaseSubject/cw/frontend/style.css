@@ -1,0 +1,167 @@
+table{
+    width: 100%;
+    height: 100%;
+}
+table table{
+    width: 98%;
+    height: 100%;
+    margin-left: 10px;
+    border: 1px solid;
+    border-radius: 5px; 
+    border-collapse: collapse;  
+}
+
+table table td, th{
+    border: 1px solid;
+}
+.menu{
+    width: 200px;
+    height: 35px;
+    background-color: rgba(95, 197, 223, 0.753);
+    min-height: 100%
+}
+.topping{
+    background-image: url("../frontend/imges/top.png");
+    height: 100px;
+    background-clip: content-box;
+    background-size: cover;
+    background-position: top;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color:rgba(226, 232, 225);
+    height: 100%;
+}
+
+.l_page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 450px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: rgba(95, 197, 223, 0.753);
+}
+.no_body{
+    height: 100%;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(226, 232, 225);
+}
+.c_text{
+    color: rgb(0, 0, 0);
+    font-family: 'Helvetica' ;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+.l_button
+{
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.lform_text
+{
+    font-family: 'Helvetica' ;
+    font-weight: bold;
+    height: 25px;
+    margin: 7px;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    width: 300px;
+    border-radius: 5px;
+}
+.log_btn{
+    font-family: 'Helvetica' ;
+    font-weight: 700;
+    font-size: 15px;
+    width: auto;
+    height: 30px;
+    border-radius: 5px;
+    min-width: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+/*MAINPAGE*/
+.top_label{
+    color: white;
+    font-family: 'Helvetica' ;
+    font-size: 25px;
+    font-weight: 700;
+}
+.main_text{
+    font-family: 'Helvetica' ;
+    margin: 10px;
+    font-size: 17px;
+    vertical-align: top;
+}
+.menu_btn{
+    text-decoration: none;
+    font-family: 'Helvetica' ;
+    font-weight: bold;
+    font-size: 17px;
+    color: black;
+    margin-left: 5px;
+    
+}
+.mainarea {
+    height: auto;
+}
+.button_area{
+    background-color: rgba(95, 197, 223, 0.753);
+    border-collapse: collapse;
+}
+.me{
+    margin-left: 5px;
+}
+.include_btn{
+    font-family: 'Helvetica' ;
+    font-weight: 700;
+    font-size: 15px;
+    width: auto;
+    height: 30px;
+    border-radius: 5px;
+    min-width: 100px;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+.include_input{
+    font-family: 'Helvetica' ;
+    font-weight: bold;
+    height: 25px;
+    margin: 3px;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    width: 150px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.main_text .error{
+    color: rgb(168, 51, 51);
+    font-weight: bold;
+}
+.main_text .fine{
+    color: rgba(18, 97, 18, 0.979);
+    font-weight: bold;
+}
+.last_row{
+    height: 40vw;
+    border-collapse:initial;
+}
